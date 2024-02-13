@@ -16,36 +16,40 @@ This application is designed to scrape data periodically from the AutoRia platfo
 
 ## 👉 Structure
 
-autoria-scraper/
-│
-├── utils/
-│   ├── __init__.py
-│   ├── async_scraper.py
-│   ├── config.py
-│   ├── db_helper.py
-│   └── log.txt
-│
-├── dumps/
-│
-├── .env
-├── main.py
-├── ReadMe.md
-└── requirements.txt
+    autoria-scraper/
+    ├── utils
+    │   ├── __init__.py
+    │   ├── async_scraper.py
+    │   ├── config.py
+    │   ├── db_helper.py
+    │   └── log.txt
+    │
+    ├── dumps/
+    │
+    ├── .env
+    ├── main.py
+    ├── README.py
+    └── requirements.txt
 
 ---
 
 ## 🚀 Setup
+
 1️⃣ **Clone the repository from GitHub:**
 ```shell
 git clone https://github.com/herbvertuher/autoria-scraper
 cd autoria-scraper
 ```
+
 2️⃣ **Install dependencies using pip:**
 ```shell
 pip install -r requirements.txt
 ```
+
 3️⃣ **Set up PostgreSQL and create a database.**
+
 4️⃣ **Create a .env file** and specify the required settings (e.g., database connection details, starting page URL, scheduled times).
+
 5️⃣ **Run the application:**
  ```shell
 python main.py
