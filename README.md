@@ -28,7 +28,7 @@ This application is designed to scrape data periodically from the AutoRia platfo
     │
     ├── .env
     ├── main.py
-    ├── README.py
+    ├── README.md
     └── requirements.txt
 
 ---
